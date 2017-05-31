@@ -1,0 +1,15 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio site",
+  "main": "server.js",
+  "repository": "https://github.com/nayray21/Portfolio.git",
+  "author": "Nathan McCoy <nathanmccoy25@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
