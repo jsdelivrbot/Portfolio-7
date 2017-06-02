@@ -9,6 +9,10 @@
   "dependencies": {
     "express": "^4.15.3"
   },
+  "engines": {
+    "node": "7.1.0",
+    "npm": "4.5.0"
+  },
   "scripts": {
     "start": "node server.js"
   }

@@ -1,8 +1,13 @@
 var express = require('express')
 var app = express()
+var port = process.env.PORT || 3000;
 
-app.use(express.static('public'))
+process.env.PWD = process.cwd();
 
-app.listen(3000, function(){
-  console.log('App is listening on port: 3000')
+app.set('views', path.join(process.env.PWD, 'public'));
+
+app.use(express.static(path.join(process.env.PWD, 'public')));
+
+app.listen(port, function(){
+  console.log('App is listening on port: ' + port)
 })
