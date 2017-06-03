@@ -32,17 +32,21 @@ nav
 
 @keyframes slide-down
   0%
+    opacity: 0
     height: 0px
     visibility: hidden
   100%
+    opacity: 1
     height: 700px
     visibility: visible
 
 @keyframes slide-up
   0%
+    opacity: 1
     height: 700px
     visibility: visible
   100%
+    opacity: 0
     height: 0px
     visibility: hidden
 
@@ -55,6 +59,7 @@ nav
   animation-duration: .5s
   animation-fill-mode: forwards
   visibility: hidden
+  opacity: 0
 
 #hamburger-menu ul
   height: 100%
