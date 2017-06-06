@@ -16,6 +16,16 @@ nav {
 #nav-filler {
   height: 130px; }
 
+#full-screen-nav {
+  display: none; }
+
+#full-screen-nav a {
+  color: #887777;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 20px; }
+
 #hamburger-wrap {
   width: 100px;
   height: 70px;
@@ -298,13 +308,16 @@ footer {
   text-decoration: none;
   margin-bottom: 60px; }
 
-@media(min-width: 800px) {
+@media screen and (min-width: 1100px) {
   nav {
     height: 60px;
     font-size: 30px; }
 
   #nav-filler {
     height: 60px; }
+
+  #full-screen-nav {
+    display: block; }
 
   #hamburger-wrap {
     display: none; }
