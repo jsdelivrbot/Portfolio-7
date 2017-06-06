@@ -298,4 +298,104 @@ footer {
   text-decoration: none;
   margin-bottom: 60px; }
 
+@media(min-width: 800px) {
+  nav {
+    height: 60px;
+    font-size: 30px; }
+
+  #nav-filler {
+    height: 60px; }
+
+  #hamburger-wrap {
+    display: none; }
+
+  #header-wrap {
+    height: 670px;
+    font-size: 60px; }
+
+  #career-title {
+    font-size: 50px; }
+
+  #social-links {
+    margin-top: 180px;
+    justify-content: center; }
+
+  #git-hub-button {
+    width: 150px;
+    height: 62px;
+    font-size: 30px;
+    margin-right: 100px; }
+
+  #linkedin-button {
+    width: 150px;
+    height: 62px;
+    font-size: 30px; }
+
+  #testimonial-wrap {
+    height: 400px;
+    line-height: 40px; }
+
+  #testimonial-wrap h3 {
+    font-size: 50px; }
+
+  #testimonial-wrap p {
+    font-size: 30px;
+    text-align: center; }
+
+  #skills-section-wrap {
+    height: 900px;
+    font-size: 50px;
+    padding-top: 70px; }
+
+  .single-skill-wrap {
+    font-size: 30px;
+    width: 300px; }
+
+  .single-skill-wrap img {
+    height: 100px;
+    width: 100px; }
+
+  #quote-wrap {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 30px; }
+
+  #quote-wrap p {
+    margin-top: 80px; }
+
+  #projects-section-wrap {
+    height: 2100px;
+    padding-top: 50px; }
+
+  #projects-section-wrap h3 {
+    font-size: 70px; }
+
+  .single-project-wrap {
+    margin-top: 50px; }
+
+  .single-project-wrap h4 {
+    font-size: 50px; }
+
+  .single-project-wrap p {
+    font-size: 30px; }
+
+  .project-divider {
+    margin-top: 50px;
+    height: 1px; }
+
+  footer {
+    font-size: 70px;
+    height: 250px; }
+
+  #contact-info-wrap {
+    font-size: 30px;
+    width: 100%;
+    align-items: center;
+    padding: 0px 200px; }
+
+  #contact-info-wrap a {
+    margin-bottom: 0px;
+    margin-top: 20px; } }
+
 /*# sourceMappingURL=styles.css.map */
