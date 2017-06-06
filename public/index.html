@@ -13,17 +13,17 @@
 
 <body>
     <nav>
-        <h3>Portfolio</h3>
+        <h3><a href="#header-location">Portfolio</a></h3>
         <div id="hamburger-wrap" onclick="handleMenu()">
             <span id="first-span"></span>
             <span id="second-span"></span>
             <span id="third-span"></span>
         </div>
         <div id="full-screen-nav">
-          <a href="#testimonial-location">About me</a>
-          <a href="#skills-location">My skills</a>
-          <a href="#projects-location">My work</a>
-          <a href="#footer-wrap">Contact me</a>
+            <a href="#testimonial-location">About me</a>
+            <a href="#skills-location">My skills</a>
+            <a href="#projects-location">My work</a>
+            <a href="#footer-wrap">Contact me</a>
         </div>
     </nav>
     <div id="hamburger-menu">
@@ -34,6 +34,7 @@
             <li><a href="#footer-wrap">Contact me</a></li>
         </ul>
     </div>
+      <div id="header-location"></div>
     <div id="nav-filler"></div>
     <div id="header-wrap">
         <div>
@@ -106,28 +107,26 @@
     <div id="projects-location"></div>
     <div id="projects-section-wrap">
         <h3>My work</h3>
-        <div class="single-project-wrap">
-              <a href="http://from-scratch.herokuapp.com/" target="_blank">
-                <img src="./assests/projects/Screen Shot 2017-06-01 at 6.00.55 PM.png"/>
-              </a>
-              <h4>From-Scratch</h4>
-              <p>From-Scratch is a React/Redux website that aims to make planning a meal more convienent.</p>
-              <p>Skills: HTML, CSS, React.js, Redux</p>
-              <p>Hosted at: <a href="http://from-scratch.herokuapp.com/" target="_blank">from-scratch.herokuapp.com</a></p>
-        </div>
-        <div class="project-divider"></div>
-        <div class="single-project-wrap">
-              <a href="http://dev-gear.herokuapp.com/" target="_blank">
-                <img src="./assests/projects/Screen Shot 2017-06-01 at 6.32.11 PM.png"/>
-              </a>
-              <h4>devGear</h4>
-              <p>devGear is an ecommerce MERN website that targets coders with shirts related to there field of work.</p>
-              <p>Skills: HTML, CSS, Sass, React.js, Redux, Node.js, MongoDB</p>
-              <p>Hosted at: <a href="http://dev-gear.herokuapp.com/" target="_blank">dev-gear.herokuapp.com</a></p>
+        <div id="single-projects-section-wrap">
+            <div class="single-project-wrap">
+                <a href="http://from-scratch.herokuapp.com/" target="_blank">
+                    <img src="./assests/projects/Screen Shot 2017-06-01 at 6.00.55 PM.png" />
+                </a>
+                <h4><a href="http://from-scratch.herokuapp.com/" target="_blank">From-Scratch</a></h4>
+                <p>Skills: HTML, CSS, React.js, Redux</p>
+            </div>
+            <div class="project-divider"></div>
+            <div class="single-project-wrap">
+                <a href="http://dev-gear.herokuapp.com/" target="_blank">
+                    <img src="./assests/projects/Screen Shot 2017-06-01 at 6.32.11 PM.png" />
+                </a>
+                <h4><a href="http://dev-gear.herokuapp.com/" target="_blank">devGear</a></h4>
+                <p>Skills: HTML, CSS, Sass, React.js, Redux, Node.js, MongoDB</p>
+            </div>
         </div>
     </div>
     <footer id="footer-wrap">
-        <h3>Reach out</h3>
+        <h3>Contact me</h3>
         <div id="contact-info-wrap">
             <a href="tel:16063150554">P: 606.315.0554</a>
             <a href="mailto:nathanmccoy25@gmail.com">E: nathanmccoy25@gmail.com</a>

@@ -23,6 +23,11 @@ nav {
   font-size: 60px;
   position: fixed; }
 
+nav h3 a {
+  color: #887777;
+  text-decoration: none;
+  cursor: pointer; }
+
 #nav-filler {
   height: 130px; }
 
@@ -246,7 +251,7 @@ nav {
 
 #projects-section-wrap {
   width: 100%;
-  height: 2600px;
+  height: 2000px;
   background-color: #535F6B;
   color: white;
   display: flex;
@@ -258,8 +263,14 @@ nav {
 #projects-section-wrap h3 {
   font-size: 90px; }
 
-.single-project-wrap {
+#single-projects-section-wrap {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.single-project-wrap {
+  width: 500px;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -279,23 +290,23 @@ nav {
   margin-top: 40px;
   text-decoration: underline; }
 
+.single-project-wrap h4 a {
+  width: 100%;
+  color: white;
+  text-decoration: underline;
+  cursor: pointer; }
+
 .single-project-wrap p {
   width: 100%;
   font-size: 49px;
   margin-top: 40px;
   text-align: center; }
 
-.single-project-wrap p a {
-  width: 100%;
-  color: white;
-  text-decoration: underline;
-  cursor: pointer; }
-
 .project-divider {
   width: 94%;
   height: 3px;
   background-color: white;
-  margin-top: 30px; }
+  margin-top: 50px; }
 
 footer {
   width: 100%;
@@ -388,24 +399,35 @@ footer {
     margin-top: 80px; }
 
   #projects-section-wrap {
-    height: 2100px;
+    height: 800px;
     padding-top: 50px; }
 
   #projects-section-wrap h3 {
     font-size: 70px; }
 
+  #single-projects-section-wrap {
+    justify-content: space-around; }
+
   .single-project-wrap {
-    margin-top: 50px; }
+    width: 500px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap; }
+
+  .single-project-wrap a img {
+    width: 500px;
+    height: 300px; }
 
   .single-project-wrap h4 {
-    font-size: 50px; }
+    font-size: 30px; }
 
   .single-project-wrap p {
-    font-size: 30px; }
+    font-size: 20px; }
 
   .project-divider {
     margin-top: 50px;
-    height: 1px; }
+    height: 1px;
+    display: none; }
 
   footer {
     font-size: 70px;
